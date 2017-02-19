@@ -2,7 +2,8 @@ export PATH=/usr/local/bin:$PATH
 
 export CLICOLOR=1
 
-if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+source /usr/local/opt/chruby/share/chruby/chruby.sh
+source /usr/local/opt/chruby/share/chruby/auto.sh
 
 source ~/.git_completion.bash
 
